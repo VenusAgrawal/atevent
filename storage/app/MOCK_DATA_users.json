@@ -1,0 +1,38 @@
+[
+    {
+        "first_name": "Venus",
+        "last_name": "Agrawal",
+        "email": "venus@venus.com",
+        "password": "12345678",
+        "contact": "+352 661 45 85 96",
+        "address1": "22 Rue Melicksheck",
+        "address2": "6214 Consdorf"
+    },
+    {
+        "first_name": "Denis",
+        "last_name": "Gorshenko",
+        "email": "denis@denis.com",
+        "password": "12345678",
+        "contact": "+352 27 65 84 1",
+        "address1": "7 Rue Goell",
+        "address2": "5326 Contern"
+    },
+    {
+        "first_name": "Hafsa",
+        "last_name": "Khalid",
+        "email": "hafsa@hafsa.com",
+        "password": "12345678",
+        "contact": "+352 621 485 956",
+        "address1": "26 Rue Michel Rodange",
+        "address2": "4776 Pétange"
+    },
+    {
+        "first_name": "Peter",
+        "last_name": "Brown",
+        "email": "peter@guerrillamail.org",
+        "password": "12345678",
+        "contact": "+352 548 456",
+        "address1": "68 Rue d'Ehlerange",
+        "address2": "4439 Soleuvre"
+    }
+]

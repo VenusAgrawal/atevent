@@ -1,0 +1,286 @@
+[
+    {
+        "event_name": "wedding",
+        "properties_id": "1"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "2"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "3"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "4"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "5"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "6"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "7"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "8"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "9"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "10"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "11"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "12"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "14"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "17"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "18"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "19"
+    },
+    {
+        "event_name": "wedding",
+        "properties_id": "20"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "1"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "2"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "3"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "4"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "5"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "6"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "9"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "11"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "12"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "13"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "14"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "15"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "16"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "17"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "18"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "19"
+    },
+    {
+        "event_name": "birthday",
+        "properties_id": "20"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "1"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "3"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "5"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "6"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "7"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "8"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "11"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "12"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "14"
+    },
+    {
+        "event_name": "photography",
+        "properties_id": "20"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "1"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "3"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "5"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "7"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "8"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "9"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "10"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "11"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "12"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "13"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "14"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "15"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "17"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "18"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "19"
+    },
+    {
+        "event_name": "photoshoot",
+        "properties_id": "20"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "1"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "2"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "3"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "6"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "11"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "12"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "13"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "14"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "15"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "16"
+    },
+    {
+        "event_name": "music",
+        "properties_id": "20"
+    }
+]

@@ -1,0 +1,26 @@
+.uploadfile {
+    width: 30%;
+    font-size: 20px;
+    margin: 40px auto;
+       
+    
+}
+
+.uploadfilebutton {
+    margin-top: 15px;
+    color: rgba(205, 131, 66, 0.936);
+    margin-bottom: 15px;
+    
+}
+
+.uploadfilecontainer {
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.headingupload {
+    margin-top: 150px;
+    font-size: 30px;
+    color: #4caf50;
+}

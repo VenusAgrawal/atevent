@@ -1,0 +1,47 @@
+[
+    {
+        "first_name": "Brigitte",
+        "last_name": "Lepage",
+        "email": "brigitte@brigitte.com",
+        "password": "12345678",
+        "contact": "+352 621 486 564",
+        "address1": "2 An Hiesel",
+        "address2": "8707 Useldange"
+    },
+    {
+        "first_name": "Alan",
+        "last_name": "Kavanaugh",
+        "email": "alan@aalan.com",
+        "password": "12345678",
+        "contact": "+352 691 457 515",
+        "address1": "9 Haaptstrooss",
+        "address2": "9764 Marnach"
+    },
+    {
+        "first_name": "Jade",
+        "last_name": "Ghadry",
+        "email": "jage@jade.com",
+        "password": "12345678",
+        "contact": "+352 26 75 95 15",
+        "address1": "4 Am Ieweschten Flouer",
+        "address2": "6691 Moersdorf"
+    },
+    {
+        "first_name": "Guillaume",
+        "last_name": "Monnet",
+        "email": "guillaume@monnet.com",
+        "password": "o0K2Z9rbrt",
+        "contact": "+352 45 54 84",
+        "address1": "59 Route d'Erpeldangel",
+        "address2": "9518 Weidingen"
+    },
+    {
+        "first_name": "Simon",
+        "last_name": "Bertrand",
+        "email": "simon@guerrillamail.org",
+        "password": "12345678",
+        "contact": "+352 661 25 45 86",
+        "address1": "19 Rue Johannes Gutenberg",
+        "address2": "1649 Luxembourg"
+    }
+]

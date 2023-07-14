@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+.container-dis {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 0.2fr 0.2fr 2fr;
+    gap: 3px 3px;
+    grid-template-areas:
+        ". . "
+        "name-dis place-des"
+        "img-dis img-dis"
+        ". . ";
+    justify-content: center;
+    font-family: "Montserrat";
+    margin-left: 10%;
+}
+.name-dis {
+    justify-self: start;
+    align-self: end;
+    grid-area: name-dis;
+    font-weight: 600;
+    font-size: x-large;
+}
+.img-dis {
+    grid-area: img-dis;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#foto-dis {
+    object-fit: cover;
+    border-radius: 20px;
+    /* изменять  */
+    max-height: 550px;
+}
+
+.place-des {
+    justify-self: end;
+    align-self: end;
+    grid-area: place-des;
+}
+
+.card-dis {
+    width: 250px;
+    right: 10px;
+    top: 272px;
+
+    float: right;
+    position: sticky;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    padding-bottom: 100px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+
+.container2-dis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 3px 3px;
+    grid-auto-flow: row;
+    justify-content: center;
+    grid-template-areas: "dancing-dis church-dis scenery-dis fireworks-dis karaoke-dis catering-dis";
+    font-family: "Montserrat";
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.dancing-dis {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "."
+        "dancingp-dis";
+    grid-area: dancing-dis;
+}
+
+.catering-dis {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "."
+        "cateringp-dis";
+    grid-area: catering-dis;
+}
+
+.karaoke-dis {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "."
+        "karaokep-dis";
+    grid-area: karaoke-dis;
+}
+
+.fireworks-dis {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "."
+        "fireworksp-dis";
+    grid-area: fireworks-dis;
+}
+
+.scenery-dis {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "."
+        "sceneryp-dis";
+    grid-area: scenery-dis;
+}
+
+.church-dis {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas:
+        "."
+        "churchp-dis";
+    grid-area: church-dis;
+}
+
+.dancingp-dis {
+    justify-self: center;
+    align-self: center;
+}
+
+.cateringp-dis {
+    justify-self: center;
+    align-self: center;
+}
+
+.karaokep-dis {
+    justify-self: center;
+    align-self: center;
+}
+
+.fireworksp-dis {
+    justify-self: center;
+    align-self: center;
+}
+
+.sceneryp-dis {
+    justify-self: center;
+    align-self: center;
+}
+
+.churchp-dis {
+    justify-self: center;
+    align-self: center;
+}
+
+.dancing-dis {
+    grid-area: dancing-dis;
+    justify-self: center;
+    align-self: center;
+}
+
+.church-dis {
+    grid-area: church-dis;
+    justify-self: center;
+    align-self: center;
+}
+
+.scenery-dis {
+    grid-area: scenery-dis;
+    justify-self: center;
+    align-self: center;
+}
+
+.fireworks-dis {
+    grid-area: fireworks-dis;
+    justify-self: center;
+    align-self: center;
+}
+
+.karaoke-dis {
+    grid-area: karaoke-dis;
+    justify-self: center;
+    align-self: center;
+}
+
+.catering-dis {
+    grid-area: catering-dis;
+    justify-self: center;
+    align-self: center;
+}
+
+.main-dis h3 {
+    font-family: "Montserrat";
+    font-size: large;
+    font-weight: 700;
+    justify-self: stretch;
+    text-align: justify;
+}
+
+.main-dis-p {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 18.5%;
+    padding: 5px;
+    direction: ltr;
+    text-align: justify;
+}
+
+.main-dis {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 18.5%;
+    justify-self: stretch;
+    text-align: justify;
+}
+
+/* calendar */
+.input-group-append {
+    cursor: pointer;
+}
+
+.container3-dis {
+    display: grid;
+    grid-template-columns: 0.2fr 1.3fr 0.4fr;
+    grid-template-rows: 0fr 0.5fr 1.7fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 3px;
+    grid-auto-flow: row;
+    justify-content: center;
+}
+
+.calendar-dis {
+    justify-self: center;
+    align-self: center;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.namemap-dis {
+    justify-self: start;
+    align-self: end;
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.reviews-dis {
+    justify-self: center;
+    align-self: center;
+    grid-area: 3 / 2 / 4 / 3;
+    height: 400px;
+}
+
+.map-dis {
+    justify-self: center;
+    align-self: center;
+    grid-area: 1 / 3 / 4 / 4;
+}
+
+#map {
+    border-radius: 20px;
+}

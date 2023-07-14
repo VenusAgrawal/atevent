@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Allura&family=Inter:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Montserrat", serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    /* height: 100%; */
+    position: absolute;
+    z-index: -1;
+}
+.bodycontent {
+    position: relative;
+}
+
+.picturecontainerbody {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pictureboxes {
+    background-color: white;
+    width: 95%;
+    padding: 7px;
+    margin: 5px;
+}
+
+.proppics {
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.proppics:hover {
+    opacity: 0.9;
+    transform: translateY(2px);
+}
+
+.proptext {
+    margin-top: 10px;
+    font-size: 15px;
+    padding-left: 7px;
+    line-height: 20px;;
+}
+
+.headingofweddings {
+    display: none;
+    /* justify-content: flex-start;
+  margin-left: 20px;
+  margin-bottom: 10px; */
+}
+
+.headingofbirthdays {
+    display: none;
+    /* justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-top: 30px; */
+}
+
+.iconscontainer {
+    display: flex;
+
+    justify-content: space-between;
+    width: 95%;
+    padding-top: 25px;
+    padding-left: 20px;
+   
+}
+
+.categoryicons a {
+    color: #4caf50;
+}
+
+.categoryicons:hover {
+    opacity: 0.7;
+    transform: translateY(2px);
+    color: #4caf50;
+}
+
+.iconscontainer p {
+    font-size: 10px;
+    font-family: "Montserrat", serif;
+}
+
+.errormessage {
+    margin-top: 10px;
+    color: rgb(217, 73, 73);
+    font-weight: bold;
+    
+}
+
+.pictureheadings {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", serif;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .picturecontainerbody {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: center;
+        justify-content: space-between;
+        text-align: left;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .pictureboxes {
+        justify-content: space-between;
+        background-color: white;
+        width: 20%;
+        padding: 7px;
+        margin: 5px;
+        
+    }
+
+    .proppics {
+        /* border: 2px rgb(216, 224, 216) solid; */
+        border-radius: 15px;
+        box-shadow: 10px 10px 8px #888888;
+    }
+
+    .proptext {
+        font-size: 15px;
+        padding-left: 7px;
+        font-family: "Montserrat", serif;
+    }
+
+
+    .pictureheadings {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        font-family: "Montserrat", serif;
+    }
+
+
+    .iconscontainer {
+        visibility: visible;
+        display: flex;
+        margin: 20px auto 40px auto;
+        justify-content: space-between;
+        width: 50%;
+        padding-top: 60px;
+    }
+    .iconscontainer p {
+        font-size: 15px;
+    }
+
+    .categoryicons a {
+        color: #4caf50;
+    }
+}

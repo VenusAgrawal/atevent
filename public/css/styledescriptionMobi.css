@@ -1,0 +1,207 @@
+.description-contenner {
+    display: grid;
+    grid-template-columns: 1.1fr;
+    grid-template-rows: 0.4fr 1.7fr 0.9fr 2.2fr 0.5fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 3px 3px;
+    grid-auto-flow: row;
+    justify-content: center;
+    grid-template-areas:
+        "general-des"
+        "img-des"
+        "icons-des"
+        "---------main-des"
+        "map-des"
+        "card-prise-des"
+        "calendar-dis"
+        "reviews-dis";
+    height: 863px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img-des {
+    grid-area: img-des;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#foto-dis {
+    object-fit: cover;
+    border-radius: 20px;
+    max-height: 550px;
+}
+
+.icons-des {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: icons-des;
+}
+
+.icon-des {
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dancing-des-name,
+.church-des-name,
+.scenery-des-name,
+.fireworks-dis-name,
+.karaoke-des-name,
+.catering-des-name,
+.icons-des-name {
+    display: none;
+}
+
+.dancing-des {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.church-des {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.scenery-des {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.fireworks-dis {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.karaoke-des {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.catering-des {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.dancing-des-name {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.church-des-name {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.scenery-des-name {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.fireworks-dis-name {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.karaoke-des-name {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.catering-des-name {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+.icons-des-name {
+    grid-area: 2 / 1 / 3 / 7;
+}
+
+.general-des {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "name-des place-des";
+    grid-area: general-des;
+}
+
+.name-des {
+    justify-self: start;
+    align-self: end;
+    grid-area: name-des;
+    font-size: large;
+    font-weight: 500;
+}
+
+.place-des {
+    justify-self: end;
+    align-self: end;
+    grid-area: place-des;
+    font-size: xx-small;
+}
+
+.---------main-des {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.8fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main-des-about"
+        "main-des-main";
+    grid-area: ---------main-des;
+}
+
+.main-des-about {
+    justify-self: start;
+    align-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-area: main-des-about;
+    width: 90%;
+}
+
+.main-des-main {
+    grid-area: main-des-main;
+    justify-self: stretch;
+    text-align: justify;
+    justify-items: initial;
+    align-self: initial;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.map-des {
+    grid-area: map-des;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+#map {
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.card-prise-des {
+    grid-area: card-prise-des;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.calendar-dis {
+    grid-area: calendar-dis;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.reviews-dis {
+    grid-area: reviews-dis;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+/* 
+.flex-shrink-0 {
+    display: none;
+   
+} */
